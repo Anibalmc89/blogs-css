@@ -1,0 +1,39 @@
+.barra-superior{
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+
+.contenedor {
+	background-color: rgba(0, 138, 220, 0.5);
+}
+
+body {
+	background: url(../img/fondo-turismo.jpg) 100% fixed no-repeat;
+}
+
+.logo{
+  width: 20rem;
+  margin-top: 0.5rem;
+  float: left;
+  border-radius: 2rem;
+}
+
+.redes {
+	color: white;
+}
+
+label {
+	color: white;
+}
+
+.avatar {
+	width: 15rem;
+}
+
+.cuerpo {
+	padding-top: 18rem;
+}
+
+.slogan {
+	padding-top: 5rem;
+}

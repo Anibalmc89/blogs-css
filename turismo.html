@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MiTour</title>
+  </head>
+  <body>
+    <div class="row contenedor">
+      <div class="s12 col blue">
+        <div class="row">
+          <div class="s3 col">
+            <img src="img/Logoturismo.jpg" class="logo responsive-img">
+          </div>
+          <div class="s9 col">
+            <div class="barra-superior">
+              <a class="waves-effect waves-light blue darken-4 btn"><i class="material-icons left">home</i><span class="hide-on-small-only">Inicio</span></a>
+              <a class="waves-effect waves-light blue darken-4 btn"><i class="material-icons left">location_on</i><span class="hide-on-small-only">Estuve en...</span></a>
+              <a class="waves-effect waves-light blue darken-4 btn"><i class="material-icons left">star</i><span class="hide-on-small-only">Mejores Viajes</span></a>
+              <a class="waves-effect waves-light blue darken-4 btn"><i class="material-icons left">chat_bubble</i><span class="hide-on-small-only">Recomendaciones</span></a>
+            </div>
+            <h3 class="white-text slogan"><em>En busca de mi ruta</em></h3>
+          </div>
+        </div>
+      </div>
+      <div class="row cuerpo">
+        <div class="s2 m2 l2 col hide-on-small-only">
+          <div class="row redes">
+            <div class="s12 col"><i class="fa fa-facebook-official fa-5x" aria-hidden="true"></i></div>
+            <div class="s12 col"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></div>
+            <div class="s12 col"><i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i></div>
+            <div class="s12 col"><i class="fa fa-pinterest-square fa-5x" aria-hidden="true"></i></div>
+            <div class="s12 col"><i class="fa fa-youtube-square fa-5x" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="s12 m10 l10 col">
+          <div class="row">
+            <div class="l4 m4 s12 col">
+              <img src="img/rapanui.jpg" class="z-depth-4 responsive-img">
+              <img src="img/sanrafael.jpg" class="z-depth-4 responsive-img">
+            </div>            
+            <div class="l4 m4 s12 col">
+              <img src="img/chiloe7.jpg" class="z-depth-4 responsive-img">
+            </div>
+            <div class="l4 m4 s12 col">
+              <img src="img/lauca.jpg" class="z-depth-4 responsive-img">
+              <img src="img/altiplanicas.jpg" class="z-depth-4 responsive-img">
+            </div>            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="l8 m8 s12 col">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/nielol.jpg" class="img-entrada responsive-img">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span class="card-title">El Cerro Ñielol</span>
+                <div class="chip">16 de febrero de 2017</div>
+                <div class="chip">Temuco, La Araucanía, Temuco <i class="material-icons">location_on</i></div>
+                <p>Hace unos días, visité Temuco, la capital de la Región de la Araucanía en Chile, aprovechando que mi tía se fue a vivir ahí hace poco. Le pregunté a mi tía si había un lugar turístico o de interés el cual visitar. Mi tía dijo que antes estaba el Mercado Municipal hasta que fue reducido a cenizas por el devastador incendio que ocurrió a mitades del año pasado. Entonces, mi tía, que se casó recientemente con un hombre que vive ahí, me dijo que estaba el famoso Cerro Ñielol. Nunca lo visité, pero mi tía, su esposo y yo fuimos ahí.</p>
+                <p>Al llegar, quedé admirado con la cantidad de árboles y miradores ahí. Desde ahí se ve una hermosa vista de la ciudad. Tomé una cantidad de fotos. Había gente. Era hermoso poder despegarse un rato de tu teléfono celular y admirar el paisaje. Claro está que el teléfono lo llevé para tomar fotos. Le agradecí a mis tíos el acompañarme y les prometí que para unas próximas vacaciones yo volvería a este hermoso cerro.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <form>
+              <div class="col s12 light-blue white-text">
+                <div class="row">
+                  <h5>Deja tu comentario</h5>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">perm_identity</i>
+                    <input id="nombre" type="text" class="validate">
+                    <label for="nombre" class="white-text">Nombres y Apellidos</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email" data-success="Correcto" data-error="Debes completar este campo" class="white-text">Correo electrónico</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="texto" class="materialize-textarea"></textarea>
+                    <label for="texto" class="white-text">Comentario</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="file-field input-field s12 right">
+                    <div class="btn white black-text">
+                      Enviar
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="img/niebla.jpg" class="img-entrada responsive-img">
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <span class="card-title">Niebla, el fuerte de mis recuerdos</span>
+                <div class="chip">29 de enero de 2017</div>
+                <div class="chip">Valdivia, Los Ríos, Temuco <i class="material-icons">location_on</i></div>
+                <p>Recuerdo cuando era niño yo iba mucho a lugares como Mehuín, Pucón, Puerto Saavedra en los veranos. Cuando era niño, me dijeron si alguna vez visité Niebla. Yo como era niño, no sabía a qué se referían con Niebla. Pensaba que se referían a que había niebla en algún lugar. Luego me di cuenta de que era un lugar turístico. Un lugar de interés en Valdivia. Así que leí libros e investigué mucho sobre ese lugar. Le dije a mi papá que fuéramos a ese lugar. Mi papá no me había llevado porque no sabía dónde quedaba, y mi mamá no tenía ni la más remota idea. Así que les hablé de que ese lugar que quedaba en Valdivia, que era un balneario muy importante de Valdivia y que ahí se construyó ese fuerte, el famoso Fuerte de Niebla.</p>
+                <p>Quedé maravillado con Niebla, con todas esas construcciones que se notan antiguas, que se notan que fue usado alguna vez para guerra. El museo, la vista, todo. Mi papá me felicitó por haberles dado toda la información y me dijo que volviéramos ahí en un futuro. Lamentablemente, eso no fue posible, ya que ese mismo año, a mi padre se lo llevó un cáncer pulmonar. Así que el día de ayer visité Valdivia por mi propia cuenta, buscando revivir mis recuerdos de niño, recordar a mi padre, cómo él quería volver a este lugar.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <form>
+              <div class="col s12 light-blue white-text">
+                <div class="row">
+                  <h5>Deja tu comentario</h5>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">perm_identity</i>
+                    <input id="nombre" type="text" class="validate">
+                    <label for="nombre" class="white-text">Nombres y Apellidos</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" type="email" class="validate">
+                    <label for="email" data-success="Correcto" data-error="Debes completar este campo" class="white-text">Correo electrónico</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="texto" class="materialize-textarea"></textarea>
+                    <label for="texto" class="white-text">Comentario</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="file-field input-field s12 right">
+                    <div class="btn white black-text">
+                      Enviar
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="s12 m4 l4 col">
+          <div class="card">
+            <div class="center-align"><img src="img/avatar.jpg" class="circle responsive-img avatar"></div>
+            <h3 class="center-align">Perfil del Autor</h3>
+            <hr>
+            <p class="center-align">Mi nombre es Aníbal Molina. Vivo en la ciudad de Temuco, soy Ingeniero Informático. Me especializo en diseños de páginas web y desarrollo de aplicaciones. Me gusta escribir, dibujar, soy amante de animales. Me gusta el anime y videojuegos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

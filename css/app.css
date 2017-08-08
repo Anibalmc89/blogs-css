@@ -1,0 +1,44 @@
+body {
+	background: url(../img/fondo.jpg) 100% fixed no-repeat;
+}
+
+.contenido {
+	background-color: rgba(25,25,112,0.6);
+	color: white;
+}
+
+.articulo {
+	background-color: rgb(102,205,170);
+	color: black;
+	padding: 5px;
+}
+
+.comentario {
+	display: block;
+	margin-top: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+textarea {
+	margin: 0;
+}
+
+.izquierda-pag {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: black;
+	padding: 10px 10px; 
+}
+
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
+
+.img-publicacion {
+	width: 100%;
+}
+
+.fecha-pub {
+	color: #035168;
+}

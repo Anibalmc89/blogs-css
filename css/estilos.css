@@ -1,0 +1,94 @@
+.redes-sociales {
+	padding-top: 170px;
+	padding-bottom: 20px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.body-musica {
+	background-color: rgb(208, 0, 0);
+	width: 100%;
+	height: 100%;
+}
+
+.barra-nav {
+	background-color: #FE2E2E;
+}
+
+.nav > li a {
+	color: white;
+}
+
+.encabezado-musica {
+	background-color: white;
+	background-size: 100%;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 0 0 10px 10px;
+}
+
+.contenedor {
+	background-color: white;
+	font-color: black;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.comentario {
+	margin-top: 10px;
+}
+
+.comentario-field {
+	width: 100%;
+	height: 75px;
+}
+
+.contenedor div[class*="col"] > img {
+	width: 100%;
+	padding-top: 50px;
+}
+
+.logo-img {
+	width: 20%;
+}
+
+.img-social {
+	width: 30px;
+}
+
+.lista-opciones {
+	margin-top: 10px;
+}
+
+@media (min-width: 992px) and (min-width: 1200px){
+	.nav > li a {
+		margin-right: 95px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+	.nav > li a {
+		margin-right: 50px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.nav > li a {
+		margin-right: 25px;
+	}
+}
+
+@media (max-width: 768px){
+	.redes-sociales {
+		text-align: center;
+	}
+
+	.buscador {
+		display: none;
+	}
+}
